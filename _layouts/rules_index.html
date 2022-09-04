@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1> {{page.title}} </h1>
+
+{{ content }}
+
+<h2> Contents </h2>
+{%- assign page_list = site.sources | where:"book",page.book -%}
+<ul>
+	{% for my_page in page_list %}
+	{% if my_page.pagetype == "index" %}
+		{% continue %}
+	{% endif %}
+	<li>
+		<a href="{{my_page.url}}">{{my_page.title}}</a>
+	</li>
+	{% endfor %}
+</ul>
