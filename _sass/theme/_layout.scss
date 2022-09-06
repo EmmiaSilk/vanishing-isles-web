@@ -2,6 +2,8 @@ $footer-height: 80px;
 
 body {
   background: linear-gradient(#0c0c30, #44337a, #8d91d8);
+  // background: linear-gradient(#0c0c30, #44337a, #6f72a2);
+  background-attachment: fixed;
   // background: linear-gradient(#8d91d8, #44337a, #0c0c30);
   color: white;
   font-size: $base-font-size;
@@ -16,17 +18,32 @@ h1, h2, h3, h4, h5, h6,
   color: $color-isles-header;
 }
 h1, .h1 {
-  font-size: $base-font-size*2;
-  border-bottom: 1px dotted $color-isles-header;
+  font-size: $base-font-size*3;
+	background-color: #323253;
+	border: 2px solid #444484;
+	text-align: center;
+	padding: $spacing-unit/3;
+	color: white;
+  // border-bottom: 2px solid $color-isles-header;
 }
 h2, .h2 {
   color: $color-isles-header;
   font-size: $base-font-size*1.75;
+
+  border-bottom: 3px solid lighten(#323253,20);
 }
 
 h3, .h3 {
   color: $color-isles-header;
   font-size: $base-font-size*1.25;
+	text-decoration: underline;
+	text-decoration-color: lighten($color-isles-header,10);
+}
+
+h4, .h4 {
+	color: $color-isles-header;
+  font-size: $base-font-size;
+
 }
 
 .site-container {
@@ -48,7 +65,7 @@ h3, .h3 {
 	filter: drop-shadow(15px 10px 4px rgba(0,0,0,0.25));
 	> img {
 		max-width: 80vw;
-		width: 800px;
+		width: $content-width;
 	}
 }
 .site-nav {
@@ -72,6 +89,18 @@ h3, .h3 {
 		&:hover {
 			color: $color-isles-link-hover;
 		}
+	}
+	.wrapper {
+		padding-top: $spacing-unit;
+		padding-bottom: $spacing-unit;
+	  border: 12px solid $color-isles-page-border;
+	  border-image: url(https://i.imgur.com/Ek08Qvw.png) 10;
+	  border-image-repeat: repeat;
+	  border-image-outset: 0;
+
+		box-shadow: 2px 2px 4px black;
+	  background: $color-isles-page-background;
+	  background-image: url(https://i.imgur.com/BjLjnV9.png);
 	}
 }
 

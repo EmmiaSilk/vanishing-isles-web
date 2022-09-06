@@ -4,7 +4,7 @@
 $body-font-family: "Eczar", serif;
 $cursive-font-family: "Merienda", cursive;
 $header-font-family: "Merienda", serif;
-$base-font-size: 16px !default;
+$base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default
 $base-line-height: 1.5 !default;
@@ -12,7 +12,7 @@ $base-line-height: 1.5 !default;
 $spacing-unit: 30px !default;
 
 // Content area widths
-$content-width: 800px !default;
+$content-width: 900px !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
@@ -23,6 +23,9 @@ $color-isles-link: #e691c0;
 $color-isles-link-hover: #ffcbcb;
 $color-isles-navlink: #ea70b4;
 $color-isles-footer: white;
+
+$color-isles-page-background: #1e1831; /* Backup color */
+$color-isles-page-border: #363548; /* Backup color */
 
 
 // Use media queries like this:
