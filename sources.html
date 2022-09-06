@@ -1,0 +1,11 @@
+---
+layout: page
+permalink: /sources/
+title: Sources
+---
+{% assign sourcedocs = site.sources | where:"pagetype","index" %}
+{% for my_doc in sourcedocs %}
+<h2>{{my_doc.title}}</h2>
+{{my_doc.excerpt}}
+<p><a href="{{my_doc.url | relative_url}}">Read More</a></p>
+{% endfor %}
