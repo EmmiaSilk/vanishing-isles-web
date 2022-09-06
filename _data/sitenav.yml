@@ -1,3 +1,7 @@
 -
   name: Home
-  path: index.markdown
+  path: index.md
+-
+  name: Basic Rules
+  path: '_sources/basicrules/index.md'
+  collection: 'sources'
