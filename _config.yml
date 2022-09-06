@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Project Vanishing Isles
+title: "Project: Vanishing Isles"
 email: contact@emmiasilk.com
 description: >- # this means to ignore newlines until "baseurl:"
-  An online rulebook for Project Vanishing Isles, a work-in-progress tabletop
+  An online rulebook for Project: Vanishing Isles, a work-in-progress tabletop
   role-playing game.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,6 +32,10 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  sources:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
