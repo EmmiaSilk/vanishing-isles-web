@@ -33,7 +33,13 @@ each of your stats and the different kinds of rolls you can make.
 **Chapter 2** explains how to customize your character using the options found
 in the [Player Options](/sources/characteroptions/) source.
 
-<!-- **Chapter 3** explains the rules of combat. -->
+**Chapter 3** explains the skills available and how they are used.
+
+**Chapter 4** explains rules for non-combat scenarios.
+
+**Chapter 5** explains the rules of combat.
+
+<!-- TODO: List chapters -->
 
 ## Components
 {:id="components"}
