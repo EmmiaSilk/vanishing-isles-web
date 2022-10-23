@@ -8,7 +8,7 @@ layout: default
 {{ content }}
 
 <h2> Contents </h2>
-{%- assign page_list = site.sources | where:"book",page.book -%}
+{%- assign page_list = site.sources | where:"book",page.book | sort: "chapter"  -%}
 <ul>
 	{% for my_page in page_list %}
 	{% if my_page.pagetype == "index" %}
